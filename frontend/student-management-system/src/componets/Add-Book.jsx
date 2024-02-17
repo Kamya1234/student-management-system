@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default AddBook;
 
 function AddBook() {
@@ -142,6 +143,8 @@ function AddBook() {
               </div>
             </div>
           </div>
+          
+          <Footer/>
         </div>
       </div>
 

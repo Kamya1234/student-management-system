@@ -1,3 +1,8 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
+
 export default teacherdashboard;
 function teacherdashboard(){
     return (<body>
@@ -14,9 +19,8 @@ function teacherdashboard(){
 
 <link rel="stylesheet" href="assets/css/style.css"></link>
         <div className="main-wrapper">
-        
-        
-        
+       <Header/>
+       <Sidebar/>
         
         <div className="page-wrapper">
         <div className="content container-fluid">
@@ -98,7 +102,7 @@ function teacherdashboard(){
         <h5 className="card-title">Upcoming Lesson</h5>
         </div>
         <div className="col-6">
-        <span className="float-end view-link"><a href="#">View All Courses</a></span>
+        <span className="float-end view-link"><a href="">View All Courses</a></span>
         </div>
         </div>
         </div>
@@ -120,7 +124,7 @@ function teacherdashboard(){
         </td>
         <td>
         <div className="lesson-confirm">
-        <a href="#">Confirmed</a>
+        <a href="">Confirmed</a>
         </div>
         <button type="submit" className="btn btn-info">Reschedule</button>
         </td>
@@ -139,7 +143,7 @@ function teacherdashboard(){
         </td>
         <td>
         <div className="lesson-confirm">
-        <a href="#">Confirmed</a>
+        <a href="">Confirmed</a>
         </div>
         <button type="submit" className="btn btn-info">Reschedule</button>
         </td>
@@ -361,28 +365,11 @@ function teacherdashboard(){
         
         </div>
         
-        
+        <Footer/>
         </div>
         
         </div>
         
         
-        <script src="assets/js/jquery-3.7.1.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/bootstrap.bundle.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/feather.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/apexchart/apexcharts.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="assets/plugins/apexchart/chart-data.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/simple-calendar/jquery.simple-calendar.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="assets/js/calander.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/circle-progress.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/script.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa2fd6dd2fe60afe2c3dfad6-|49" defer></script></body>)
+</body>)
 }

@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default AddExam;
 
 function AddExam(){
@@ -20,7 +23,8 @@ function AddExam(){
 <div className="main-wrapper">
 
 
-
+<Header />
+        <Sidebar/>
 
 
 
@@ -106,6 +110,8 @@ function AddExam(){
 </div>
 </div>
 </div>
+
+<Footer/>
 
 </div>
 

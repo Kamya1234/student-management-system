@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default BlogDetail;
 function BlogDetail(){
     return (
@@ -20,7 +23,8 @@ function BlogDetail(){
 
 <div className="main-wrapper">
 
-
+<Header />
+        <Sidebar/>
 
 
 
@@ -215,6 +219,8 @@ function BlogDetail(){
 </div>
 
 </div>
+
+<Footer/>
 </div>
 
 </div>

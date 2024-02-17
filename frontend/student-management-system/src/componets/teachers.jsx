@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default teachers;
 function teachers(){
     return (<body>
@@ -14,7 +18,8 @@ function teachers(){
 
 <link rel="stylesheet" href="assets/css/style.css"></link>
         <div className="main-wrapper">
-        
+        <Header/>
+       <Sidebar/>
         
         
         <div className="page-wrapper">
@@ -81,8 +86,8 @@ function teachers(){
         <td>PRE2209</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Aaliyah</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="User Image"/></Link>
+        <Link to="/teacher-details">Aaliyah</Link>
         </h2>
         </td>
         <td>10</td>
@@ -96,9 +101,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link>
         </div>
         </td>
         </tr>
@@ -111,8 +116,8 @@ function teachers(){
         <td>PRE2213</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Malynne</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="User Image"/></Link >
+        <Link to="/teacher-details">Malynne</Link >
         </h2>
         </td>
         <td>8</td>
@@ -126,9 +131,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link >
         </div>
         </td>
         </tr>
@@ -141,8 +146,8 @@ function teachers(){
         <td>PRE2143</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-04.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Levell Scott</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-04.jpg" alt="User Image"/></Link >
+        <Link to="/teacher-details">Levell Scott</Link >
         </h2>
         </td>
         <td>10</td>
@@ -156,9 +161,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link >
         </div>
         </td>
         </tr>
@@ -171,8 +176,8 @@ function teachers(){
         <td>PRE2431</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-05.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Minnie</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-05.jpg" alt="User Image"/></Link >
+        <Link to="/teacher-details">Minnie</Link >
         </h2>
         </td>
         <td>11</td>
@@ -186,9 +191,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link >
         </div>
         </td>
         </tr>
@@ -201,8 +206,8 @@ function teachers(){
         <td>PRE1534</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-06.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Lois A</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-06.jpg" alt="User Image"/></Link >
+        <Link to="/teacher-details">Lois A</Link >
         </h2>
         </td>
         <td>10</td>
@@ -216,9 +221,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link >
         </div>
         </td>
         </tr>
@@ -231,8 +236,8 @@ function teachers(){
         <td>PRE2153</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-07.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Calvin</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-07.jpg" alt="User Image"/></Link >
+        <Link to="/teacher-details">Calvin</Link >
         </h2>
         </td>
         <td>9</td>
@@ -246,9 +251,9 @@ function teachers(){
         <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
         <i className="feather-eye"></i>
         </a>
-        <a href="edit-teacher.html" className="btn btn-sm bg-danger-light">
+        <Link to="/edit-teacher" className="btn btn-sm bg-danger-light">
         <i className="feather-edit"></i>
-        </a>
+        </Link >
         </div>
         </td>
         </tr>
@@ -351,8 +356,8 @@ function teachers(){
         <td>PRE1234</td>
         <td>
         <h2 className="table-avatar">
-        <a href="teacher-details.html" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-11.jpg" alt="User Image"/></a>
-        <a href="teacher-details.html">Nathan Humphries</a>
+        <Link to="/teacher-details" className="avatar avatar-sm me-2"><img className="avatar-img rounded-circle" src="assets/img/profiles/avatar-11.jpg" alt="User Image"/></Link>
+        <Link to="/teacher-details">Nathan Humphries</Link>
         </h2>
         </td>
         <td>10</td>
@@ -380,23 +385,12 @@ function teachers(){
         </div>
         </div>
         </div>
-        
-        
-        </div>
+        <Footer/>
         
         </div>
         
+        </div>
         
-        <script src="assets/js/jquery-3.7.1.min.js" type="76784120260d023e99fe26c5-text/javascript"></script>
         
-        <script src="assets/js/bootstrap.bundle.min.js" type="76784120260d023e99fe26c5-text/javascript"></script>
-        
-        <script src="assets/js/feather.min.js" type="76784120260d023e99fe26c5-text/javascript"></script>
-        
-        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="76784120260d023e99fe26c5-text/javascript"></script>
-        
-        <script src="assets/plugins/datatables/datatables.min.js" type="76784120260d023e99fe26c5-text/javascript"></script>
-        
-        <script src="assets/js/script.js" type="76784120260d023e99fe26c5-text/javascript"></script>
-        <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="76784120260d023e99fe26c5-|49" defer></script></body>)
+        </body>)
 }

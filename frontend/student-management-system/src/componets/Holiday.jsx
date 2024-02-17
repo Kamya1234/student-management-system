@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default Holiday;
 function Holiday(){
     return(
@@ -20,7 +24,8 @@ function Holiday(){
 
 <div className="main-wrapper">
 
-
+<Header/>
+       <Sidebar/>
 
 
 
@@ -42,7 +47,7 @@ function Holiday(){
 </div>
 <div className="col-auto text-end float-end ms-auto download-grp">
 <a href="#" className="btn btn-outline-primary me-2"><i className="fas fa-download"></i> Download</a>
-<a href="add-holiday.html" className="btn btn-primary"><i className="fas fa-plus"></i></a>
+<Link to="/add-holiday" className="btn btn-primary"><i className="fas fa-plus"></i></Link >
 </div>
 </div>
 </div>
@@ -156,25 +161,14 @@ function Holiday(){
 </div>
 </div>
 
-
-
-</div>
+<Footer/>
 
 </div>
 
+</div>
 
-<script src="assets/js/jquery-3.7.1.min.js" type="75c486aecda48729915abe69-text/javascript"></script>
 
-<script src="assets/js/bootstrap.bundle.min.js" type="75c486aecda48729915abe69-text/javascript"></script>
-
-<script src="assets/js/feather.min.js" type="75c486aecda48729915abe69-text/javascript"></script>
-
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="75c486aecda48729915abe69-text/javascript"></script>
-
-<script src="assets/plugins/datatables/datatables.min.js" type="75c486aecda48729915abe69-text/javascript"></script>
-
-<script src="assets/js/script.js" type="75c486aecda48729915abe69-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="75c486aecda48729915abe69-|49" defer></script></body>
+</body>
 
     )
 }

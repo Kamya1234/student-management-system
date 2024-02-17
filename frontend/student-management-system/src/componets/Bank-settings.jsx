@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default BankSetting;
 function BankSetting(){
     return(
@@ -22,7 +25,8 @@ function BankSetting(){
 
 <div className="main-wrapper">
 
-
+<Header />
+        <Sidebar/>
 
 
 
@@ -105,6 +109,8 @@ function BankSetting(){
 </div>
 </div>
 </div>
+
+<Footer/>
 </div>
 
 </div>

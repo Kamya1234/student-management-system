@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default EditDepartment;
 function EditDepartment(){
     return(
@@ -18,7 +22,9 @@ function EditDepartment(){
 
 <div className="main-wrapper">
 
-
+<Header/>
+       <Sidebar/>
+        
 
 
 
@@ -79,24 +85,13 @@ function EditDepartment(){
 </div>
 </div>
 </div>
+<Footer/>
 </div>
 
 </div>
 
 
-<script src="assets/js/jquery-3.7.1.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-
-<script src="assets/js/bootstrap.bundle.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-
-<script src="assets/js/feather.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-
-<script src="assets/plugins/moment/moment.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-<script src="assets/js/bootstrap-datetimepicker.min.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-
-<script src="assets/js/script.js" type="7e9a1acee1827498ac500972-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7e9a1acee1827498ac500972-|49" defer></script></body>
+</body>
 
 
     )

@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default FeesCollection;
 function FeesCollection(){
     return(
@@ -18,7 +22,8 @@ function FeesCollection(){
 
 <div className="main-wrapper">
 
-
+<Header/>
+       <Sidebar/>
 
 
 
@@ -41,7 +46,7 @@ function FeesCollection(){
 </div>
 <div className="col-auto text-end float-end ms-auto download-grp">
 <a href="#" className="btn btn-outline-primary me-2"><i className="fas fa-download"></i> Download</a>
-<a href="add-fees-collection.html" className="btn btn-primary"><i className="fas fa-plus"></i></a>
+<Link to="/add-fees-collection" className="btn btn-primary"><i className="fas fa-plus"></i></Link >
 </div>
 </div>
 </div>
@@ -245,25 +250,16 @@ function FeesCollection(){
 </div>
 </div>
 
-
-
-</div>
+<Footer/>
 
 </div>
 
+</div>
 
-<script src="assets/js/jquery-3.7.1.min.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
 
-<script src="assets/js/bootstrap.bundle.min.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
 
-<script src="assets/js/feather.min.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
 
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
-
-<script src="assets/plugins/datatables/datatables.min.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
-
-<script src="assets/js/script.js" type="05b4e69e09d9337f2fb6bc27-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="05b4e69e09d9337f2fb6bc27-|49" defer></script></body>
+</body>
 
 
     )

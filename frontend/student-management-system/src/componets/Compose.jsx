@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default Compose;
 function Compose(){
     return (
@@ -18,7 +21,8 @@ function Compose(){
 <div className="main-wrapper">
 
 
-
+<Header />
+        <Sidebar/>
 
 
 
@@ -85,6 +89,8 @@ function Compose(){
 </div>
 </div>
 </div>
+
+<Footer/>
 </div>
 
 </div>

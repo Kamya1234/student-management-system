@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Sidebar from '/Sidebar';
+import Footer from './Footer';
 export default AddTransport;
 
 function AddTransport(){
@@ -16,7 +19,8 @@ function AddTransport(){
 <div className="main-wrapper">
 
 
-
+<Header />
+        <Sidebar/>
 
 
 
@@ -82,6 +86,8 @@ function AddTransport(){
 </div>
 </div>
 </div>
+<Footer/>
+
 </div>
 
 </div>

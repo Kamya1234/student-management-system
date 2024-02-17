@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default EditTransport;
 function EditTransport(){
     return(
@@ -16,7 +20,8 @@ function EditTransport(){
 
     <div className="main-wrapper">
 
-
+    <Header/>
+       <Sidebar/>
 
 
 
@@ -83,21 +88,13 @@ function EditTransport(){
 </div>
 </div>
 </div>
+<Footer/>
 </div>
 
 </div>
 
 
-<script src="assets/js/jquery-3.7.1.min.js" type="a879b8dcaf811770f9f59ac9-text/javascript"></script>
-
-<script src="assets/js/bootstrap.bundle.min.js" type="a879b8dcaf811770f9f59ac9-text/javascript"></script>
-
-<script src="assets/js/feather.min.js" type="a879b8dcaf811770f9f59ac9-text/javascript"></script>
-
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="a879b8dcaf811770f9f59ac9-text/javascript"></script>
-
-<script src="assets/js/script.js" type="a879b8dcaf811770f9f59ac9-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a879b8dcaf811770f9f59ac9-|49" defer></script></body>
+</body>
 
 
     )

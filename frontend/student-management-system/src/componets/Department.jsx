@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 export default Department;
 function Department(){
     return (
@@ -18,7 +22,8 @@ function Department(){
 <div className="main-wrapper">
 
 
-
+<Header/>
+<Sidebar/>
 
 
 
@@ -62,7 +67,7 @@ function Department(){
 </div>
 <div className="col-auto text-end float-end ms-auto download-grp">
 <a href="#" className="btn btn-outline-primary me-2"><i className="fas fa-download"></i> Download</a>
-<a href="add-department.html" className="btn btn-primary"><i className="fas fa-plus"></i></a>
+<Link to="/add-department" className="btn btn-primary"><i className="fas fa-plus"></i></Link >
 </div>
 </div>
 </div>
@@ -104,9 +109,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -130,9 +135,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -156,9 +161,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -182,9 +187,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -208,9 +213,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -234,9 +239,9 @@ function Department(){
 <a href="javascript:;" className="btn btn-sm bg-success-light me-2">
 <i className="feather-eye"></i>
 </a>
-<a href="edit-department.html" className="btn btn-sm bg-danger-light">
+<Link to="/edit-department" className="btn btn-sm bg-danger-light">
 <i className="feather-edit"></i>
-</a>
+</Link >
 </div>
 </td>
 </tr>
@@ -248,26 +253,13 @@ function Department(){
 </div>
 </div>
 
-<footer>
-<p>COPYRIGHT © 2023 DREAMSTECHNOLOGIES.</p>
-</footer>
+<Footer/>
 
 </div>
 
 </div>
 
 
-<script src="assets/js/jquery-3.7.1.min.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-
-<script src="assets/js/bootstrap.bundle.min.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-
-<script src="assets/js/feather.min.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-
-<script src="assets/plugins/datatables/datatables.min.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-
-<script src="assets/js/script.js" type="e2ea9b8868b83f0c33922788-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e2ea9b8868b83f0c33922788-|49" defer></script></body>
+</body>
     )
 }
